@@ -1,5 +1,7 @@
 import './App.scss';
+import Admin from './pages/admin/Admin';
 import Dashboard from './pages/dashboard/Dashboard';
+import Login from './pages/login/Login';
 
 function App() {
   const user = {
@@ -14,10 +16,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={ <Dashboard/> } />
+        <Route path="/" element={ <Dashboard user={user}/> } />
+        <Route path="/" element={ <Login /> } />
+        <Route path="/" element={ <Admin user={user} /> } />
       </Routes>
-
-      <Dashboard user={user} />
     </div>
   );
 }
