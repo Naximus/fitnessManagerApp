@@ -18,8 +18,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={ <Dashboard user={user}/> } />
-        <Route path="/" element={ <Login /> } />
-        <Route path="/" element={ <Admin user={user} /> } />
+        <Route path="/login" element={ <Login /> } />
+        <Route path="/admin" element={ <Admin user={user} /> } />
       </Routes>
     </div>
   );
