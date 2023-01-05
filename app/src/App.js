@@ -13,6 +13,10 @@ function App() {
 
   return (
     <div className="App">
+      <Routes>
+        <Route path="/" element={ <Dashboard/> } />
+      </Routes>
+
       <Dashboard user={user} />
     </div>
   );
