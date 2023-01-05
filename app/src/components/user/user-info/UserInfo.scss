@@ -1,0 +1,9 @@
+.user-info {
+    & > span {
+        display: block;
+    }
+
+    &__name {
+        font-weight: 800;
+    }
+}
