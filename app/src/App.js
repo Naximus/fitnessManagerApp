@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom"
 import './App.scss';
 import Admin from './pages/admin/Admin';
 import Dashboard from './pages/dashboard/Dashboard';
