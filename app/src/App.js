@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Dashboard from './pages/dashboard/Dashboard';
 
 function App() {
@@ -7,7 +7,8 @@ function App() {
     name: 'Стоян Димитров',
     phone: '0888',
     email: 'stoyan@abv.bg',
-    created: '2022.12.01'
+    created: '2022.12.01',
+    photo: null
   };
 
   return (
